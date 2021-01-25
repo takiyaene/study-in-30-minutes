@@ -1,0 +1,8 @@
+{
+  "filters": {},
+  "rules": {
+    "textlint-rule-preset-japanese": true,
+    "no-dropping-the-ra": true,
+    "no-mix-dearu-desumasu": true
+  }
+}
