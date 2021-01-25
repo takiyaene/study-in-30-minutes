@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# 30分勉強会
 
-You can use the [editor on GitHub](https://github.com/takiyaene/study_30/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## 目的
+- 開発者体験（Developer Experience, DX）の向上
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 方法
+- 30分
+  - 5分で説明
+  - 25分で質疑やハンズオン
 
-### Markdown
+# 各回
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 第01回 (2021/01/25) .git/info/exclude について
 
-```markdown
-Syntax highlighted code block
+### 何を実現するためのものか？
+- Git で「自分だけが」追跡されたくないファイルを指定することができる
+  - `.gitignore` の自分専用版
 
-# Header 1
-## Header 2
-### Header 3
+### どうやるか？
+- 各リポジトリ配下の `.git/info/exclude` に追跡されたくないファイル名を書く
+  - 正規表現を用いることができる
 
-- Bulleted
-- List
+### 何が嬉しいか？
+- 自分だけのスクリプトやコードを誤ってコミットしなくて済む
+  - テストのために書いた一時的なコード
+    - `my_test.rb`
+    - `filterMethodTest.js`
+  - エディタや導入しているツール特有の設定ファイル
+    - `.idea/`
+    - `.vscode/`
+    - `.envrc`
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/takiyaene/study_30/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 発展
+- `.git/hooks` についても調べてみよう
