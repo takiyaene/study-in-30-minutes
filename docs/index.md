@@ -38,7 +38,7 @@
 - `.git/hooks` についても調べてみよう
   - `overcommit` や `husky` も調べてみよう
 
-### 質疑時間に話されたこと
+### 議事録
 - 常に無視することが決まっているファイルは `~/.gitignore` に書くと手間が減る
 - `git update-index --assume-unchanged` や `git update-index --skip-worktree` と組み合わせて使う
   - [git の監視から逃れる方法 - Qiita](https://qiita.com/sqrtxx/items/38a506e59df67cd5d3a1)
@@ -82,6 +82,15 @@
 - 既存の `.envrc` を自前のエディタ経由で（`$ direnv` コマンドを経由しないで）編集した場合はどうなるか？
 - `cross-env` とは？
 - [公式ドキュメント](https://direnv.net/man/direnv-stdlib.1.html)
+
+### 議事録
+- 影響を及ぼすレイヤーを考えて使いこなす
+  - シェルの設定ファイル（最上位）
+  - direnv（ディレクトリごと）
+  - .env（アプリケーションごと）
+- 隠避したい内容かどうかを使う基準とする
+- 使っている環境変数を一覧するドキュメント的な役割
+- Rails の場合、静的な情報は credentials を使うという方法もある
 
 # 次回以降のテーマ（予定）
 - ngrok
