@@ -95,6 +95,10 @@
   - rsync
   - scp
 - peco
-- YAMLの闇
-- 無限PostgreSQL
+- YAMLの罠
+- 無限PostgreSQL by Docker
 - ghq, gh
+- git の「ブランチ」および「HEAD」とは
+- CircleCI CLI
+- git rebase (squash, fixup)
+- fzf
