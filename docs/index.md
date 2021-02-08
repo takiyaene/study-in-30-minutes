@@ -6,7 +6,7 @@
 - ツールやサービスを理解する
   - すでに知っている人はアンチパターンやユースケースなどを紹介する
   - まだ知らない人は頭の片隅に入れておき、使えそうな時に使っていく
-  - ツールやサービスそのものの使い方ではなく、それらが実現しようとしている対象について掘り下げるきっかけとする（例: direnv を使うことで環境変数に対する理解を深める）
+- ツールやサービスそのものの使い方ではなく、それらが実現しようとしている対象について理解を深めるきっかけとする（例: direnv を使うことで環境変数に対する理解を深める）
 
 ## 内容
 - 30分
@@ -95,7 +95,48 @@
 
 ----------
 
-## 第03回 (2021/02/XX) YAMLの闇 について
+## 第03回 (2021/02/08) Git における「ブランチ」とは？「HEAD」とは？
+
+### 本日の内容
+- Git における以下の 2つ の意味を理解する
+  - 「ブランチ」
+  - 「HEAD」
+- Jamboard
+  - [30分勉強会 #03「ブランチとは・HEADとは」](https://jamboard.google.com/d/10ZVLS0ZpSI2b4imt6F-5Djake_D03tIoiGbOjvJct0o/viewer?f=0)
+
+### まとめ
+
+#### 「ブランチ（名）」とは
+1. 「コミットハッシュ」に貼り付く「名札」のこと
+1. 原理上は無くても構わないが、人類にとっては必要
+1. 枝分かれしたいずれかの枝の「先頭」に貼り付く
+
+#### 「HEAD」とは
+1. 「現在位置」に貼り付く「名札」のこと
+1. 「現在位置」は原則「ブランチ」である
+
+#### 「コミット」とは
+1. ある時点における「ファイルが保存されているフォルダ」のこと（イメージ）
+1. 直前のコミットのコミットハッシュを知っている
+1. 例外的なコミットとして「マージコミット」がある
+
+### 所感
+- ブランチを「切る」という言い方がとても良くない
+  - ブランチを「貼る」「付ける」でいいと思う
+  - 他のバージョン管理システムからの名残り？
+
+### 発展
+- ブランチを「削除する」とは？
+- Git の「タグ」とは？
+- push -f をしなければいけないときは、コミットがどういう状態にあるときか？
+- rebase や reset の際に必要になる `~`（チルダ）や `^`（キャレット）の意味は？
+  - https://qiita.com/chihiro/items/d551c14cb9764454e0b9
+
+### 議事録
+
+----------
+
+## 第XX回 (2021/XX/XX) YAMLの闇 について
 
 ### 本日の内容
 - YAML の闇を探る
@@ -119,20 +160,22 @@
 ここに議事録が入る。ここに議事録が入る。ここに議事録が入る。ここに議事録が入る。ここに議事録が入る。ここに議事録が入る。ここに議事録が入る。
 
 # 次回以降のテーマ（予定）
-- ngrok
+- [ngrok](https://ngrok.com/)
   - serveo
   - localtunnel
   - localhost.run
   - teleconsole
   - pagekite
   - Google Spreadsheet
-- rclone
-  - rsync
+- [rclone](https://rclone.org/)
+  - [rsync](https://rsync.samba.org/documentation.html)
   - scp
-- peco
+- [peco](https://github.com/peco/peco)
 - 無限PostgreSQL by Docker
-- ghq, gh
-- git の「ブランチ」および「HEAD」とは
-- CircleCI CLI
+- [ghq](https://github.com/x-motemen/ghq)
+- [gh](https://github.com/cli/cli)
 - git rebase (squash, fixup)
-- fzf
+- [CircleCI CLI](https://circleci.com/docs/ja/2.0/local-cli/)
+- [fzf](https://github.com/junegunn/fzf)
+- [jq](https://stedolan.github.io/jq/)
+  - [yq](https://github.com/kislyuk/yq)
