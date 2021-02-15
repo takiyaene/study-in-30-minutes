@@ -130,7 +130,7 @@
 - Git の「タグ」とは？
 - push -f をしなければいけないときは、コミットがどういう状態にあるときか？
 - rebase や reset の際に必要になる `~`（チルダ）や `^`（キャレット）の意味は？
-  - https://qiita.com/chihiro/items/d551c14cb9764454e0b9
+  - [【やっとわかった！】gitのHEAD^とHEAD~の違い - Qiita](https://qiita.com/chihiro/items/d551c14cb9764454e0b9)
 
 ### 議事録
 - マージしたときに困ったことになる場合があるが、理由は何だろうか
@@ -187,8 +187,52 @@
 - 無限PostgreSQL by Docker
 - [ghq](https://github.com/x-motemen/ghq)
 - [gh](https://github.com/cli/cli)
+- pgcli, mycli
 - git rebase (squash, fixup)
 - [CircleCI CLI](https://circleci.com/docs/ja/2.0/local-cli/)
+  - オレオレ `config.yml` を作る
 - [fzf](https://github.com/junegunn/fzf)
 - [jq](https://stedolan.github.io/jq/)
   - [yq](https://github.com/kislyuk/yq)
+- 30分勉強会を行うための方法
+  - [Miro](https://miro.com/)
+  - [CommentScreen](https://commentscreen.com/)
+  - [slido](https://www.sli.do/jp)
+- 個人開発・勉強環境を無料（安価）で構築する
+  - GCE の Always Free
+  - Heroku
+  - Raspberry Pi
+  - Netlify
+  - Vercel
+  - Lightsail
+  - ConoHa
+  - Dokku (Piku)
+  - minio
+  - Docker Registry
+- 定番 gem の基礎的な使い方
+  - Sorcery
+  - Runsack
+  - Ancestry
+  - letter_opener
+  - rails-dotenv
+  - Bugsnag
+  - Shrine
+  - Config (Settings)
+  - PaperTrail
+  - bussiness_time
+  - (Materialize)
+- 便利ツール
+  - DBeaver
+  - Metabase
+  - Postman
+  - Fiddler
+  - Wireshark
+  - Figma
+  - 1Password
+  - AltTab
+  - Alfred
+  - Stream Deck
+  - Clipy
+  - Magnet
+  - Default Folder X
+  - Simple URL Copy (Chrome Extension)
