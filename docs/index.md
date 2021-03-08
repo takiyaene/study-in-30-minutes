@@ -199,15 +199,15 @@
 - リモートとローカルのポインタが噛み合わないときの対応方法は？
   - `reset` して `stash` してから `pull` をし、`stash pop` するとポインタがちゃんと連続する
 
-## 第06回 (2021/03/XX) YAMLの闇
+## 第06回 (2021/03/10) YAMLの闇
 
 ### 本日の内容
 - [Miro](https://miro.com/app/board/o9J_lRVHXUY=/)
+- [YAML - Wikipedia](https://en.wikipedia.org/wiki/YAML)
 - [yq](https://github.com/kislyuk/yq)
   - YAML
   - XML
   - TOML
-- [YAML - Wikipedia](https://en.wikipedia.org/wiki/YAML)
 
 ### 議論
 - 議論の内容
@@ -220,7 +220,7 @@
 ### 議論
 - 議論の内容
 
-# 次回以降のテーマ（予定）
+# 次回以降のテーマ（予定やらトピックをなぐり書き）
 - [ngrok](https://ngrok.com/)
   - serveo
   - localtunnel
@@ -253,6 +253,10 @@
   - Dokku (Piku)
   - minio
   - Docker Registry
+  - Release Drafter
+  - CodeQL
+  - Sider
+  - ELK
 - 定番 gem の基礎的な使い方
   - Sorcery
   - Runsack
